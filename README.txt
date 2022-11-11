@@ -1,3 +1,8 @@
+# Authorizer 
+
+Authorizer is a Java project responsible for validating transactions before realizing money transfer between accounts. It was created in 2020 as a code test for a Software Engineer job position.
+
+# Specification
 This project was carried out in Java1.8 and uses Maven for dependency management.
 Uses external libraries:
  - GSon, for reading the JSON informed by the user
