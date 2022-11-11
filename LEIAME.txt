@@ -1,0 +1,20 @@
+Esse projeto foi realizado em Java1.8 e utiliza Maven para gerenciamento de dependências. 
+Utiliza as bibliotecas externas: 
+ - GSon, para leitura do JSON informado pelo usuário
+ - JUnit, para os testes unitários
+
+Para realizar rodar o projeto no Eclipse siga os seguintes passos: 
+ - Se ainda não possuir, baixe o Eclipse Oxygen.3a Release (4.7.3a) em https://www.eclipse.org
+ - Abra o Eclise 
+ - Baixe o arquivo em uma pasta local e descompacte na pasta do workspace
+ - Na aba Package Explorer, clique com o botão direito e selecione "Import" 
+ - Selecione a opção "Existing Projects into Workspace"
+ - Selecione a pasta do projeto e finalize
+ - Atualize as dependências do Maven caso não tenha baixado automaticamente
+ - Para rodar a aplicação selecione o projeto, botão direito, selecione "Run as -> Java Aplication" e por fim clique na classe "Main" 
+ - Para rodar os testes unitários selecione o projeto, botão direito, clique em "Run as -> JUnit Test" 
+
+Também é possível realizar o teste via CMD utilizando o Jar gerado. 
+Ele está disponível na pasta JAR. Para rodar é necessário apenas clicar no arquivo "RunAuthorizer.bat"! 
+
+A documentação está disponível na pasta doc. Para visualizar clique index.hmtl e abra com o navegador
